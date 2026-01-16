@@ -14,8 +14,6 @@ const validarCampo = (text) => {
 }
 
 function renderMensagem({ message, username }) {
-    
-
     const date = new Date();
 
     const month = date.getMonth() + 1;
