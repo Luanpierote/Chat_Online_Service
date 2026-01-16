@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Service</title>
+</head>
+
+<link rel="stylesheet" href="./style/style.css">
+
+<body>
+    <h1>Chat Service Online</h1>
+    <div class="caixa" id = "message" >
+        <div class="exibir" >
+            <p></p>
+        </div>
+
+        <div class="campo">
+            <input type="text" id="inputText">
+
+            <button id="buttonEnv">Enviar</button>
+        </div>
+    </div>
+
+    <script type="module" src="./components/chat.js"></script>
+    <script type="module" src="./components/index.js"></script>
+    <script src="/socket.io/socket.io.js"></script> <!-- rota padrão injetada pelo socket.io -->
+    
+</body>
+
+</html>

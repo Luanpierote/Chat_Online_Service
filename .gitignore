@@ -1,0 +1,8 @@
+# Arquivos teste
+passos.txt
+teste.js
+
+# Build do projeto
+node_modules
+package.json
+package-lock.json
